@@ -7,7 +7,7 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
-
+        <link rel="icon" href="newImgs/Logo without bg.ico">
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,21 +41,22 @@
         <!-- Navbar start -->
         <div class="container-fluid nav-bar">
             <div class="container">
-                <nav class="navbar navbar-light navbar-expand-lg py-4">
-                    <a href="index.html" class="navbar-brand">
+                <nav class="navbar navbar-light navbar-expand-lg py-4" style="flex-wrap: wrap;">
+                    <a href="index.html" class="navbar-brand" style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="newImgs/Logo without bg.png" alt="" class="logo" style="width:60px">
                         <h1 class="text-primary fw-bold mb-0">NCICCN<span class="text-dark">2024</span> </h1>
                     </a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-auto">
+                        <div class="navbar-nav" style="margin-left: auto; margin-right: 0; !important">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="#schedule" class="nav-item nav-link">Schedule</a>
-                            <a href="#" class="nav-item nav-link">Topics</a> <!--give link to download-->
+                            <!--<a href="#" class="nav-item nav-link">Topics</a> give link to download-->
                             <!--<a href="event.html" class="nav-item nav-link">Authors</a>
                             <a href="menu.html" class="nav-item nav-link">Register</a>-->
-                            <a href="#commit" class="nav-link nav-item">Committees</a>
+                            <!--<a href="#commit" class="nav-link nav-item">Committees</a>-->
                                 <!--<div class="dropdown-menu bg-light">
                                     <a href="book.html" class="dropdown-item">Organizing Committee</a>
                                     <a href="blog.html" class="dropdown-item">Advisory Committee</a>
@@ -63,7 +64,7 @@
                                 </div>-->
                             <a href="#contact" class="nav-item nav-link">Contact</a>
                         </div>
-                        <a href="" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Submit Paper</a>
+                       <!-- <a href="" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Submit Paper</a> -->
                     </div>
                 </nav>
             </div>
@@ -97,9 +98,9 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7 col-md-12">
                         <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to NCICCN</small>
-                        <h1 class="display-1 mb-4 animated bounceInDown"> <span class="text-primary">1st</span> National Conference on Innovation in Communication and Computing Network <br><span class="text-primary">2024</span></h1>
-                        <a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Submit Paper</a>
-                        <a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Know More</a>
+                        <h1 class="display-1 mb-4 animated bounceInDown"> <span class="text-primary">First</span> National Conference on Innovation in Communication and Computing Network <br><span class="text-primary">2024</span></h1>
+                        <!--<a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Submit Paper</a>-->
+                        <a href="#aboutUs" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Know More</a>
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <img src="newImgs/skye-studios-NDLLFxTELrU-unsplash-removebg-preview.png" class="img-fluid rounded animated zoomIn" alt="">
@@ -143,7 +144,7 @@
         <!-- About End -->
 
 
-        <!-- Fact Start-->
+        <!-- Fact Start
         <div class="container-fluid faqt py-6">
             <div class="container">
                 <div class="row g-4 align-items-center">
@@ -152,7 +153,7 @@
                             <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.3s">
                                 <div class="faqt-item bg-primary rounded p-4 text-center">
                                     <i class="fas fa-users fa-4x mb-4 text-white"></i>
-                                    <h1 class="display-4 fw-bold" data-toggle="counter-up">100</h1>
+                                    <h1 class="display-4 fw-bold" data-toggle="counter-up"></h1>
                                     <p class="text-dark text-uppercase fw-bold mb-0">Papers Submitted</p>
                                 </div>
                             </div>
@@ -182,7 +183,7 @@
                 </div>
             </div>
         </div>
-        <!-- Modal Video -->
+         Modal Video 
         <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content rounded-0">
@@ -191,7 +192,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
+                         16:9 aspect ratio 
                         <div class="ratio ratio-16x9">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=8dRveyWpF8E" id="video" allowfullscreen allowscriptaccess="always"
                                 allow="autoplay"></iframe>
@@ -204,11 +205,11 @@
 
 
         <!-- Service Start -->
-        <div class="container-fluid service py-6">
+        <div class="container-fluid service py-6" id="service">
             <div class="container">
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
-                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Services</small>
-                    <h1 class="display-5 mb-5">What We Offer</h1>
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Quick View</small>
+                    <h1 class="display-5 mb-5">Important things at a Glance</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-6 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
@@ -254,7 +255,7 @@
                                     <i class="fas fa-pen fa-7x text-primary mb-4"></i>
                                     <h4 class="mb-3">Check Topics</h4>
                                     <p class="mb-4">Know our tracks for the upcoming conference</p>
-                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Know More</a>
+                                    <a href="#service" class="btn btn-primary px-4 py-2 rounded-pill">Available Soon!</a>
                                 </div>
                             </div>
                         </div>
@@ -336,7 +337,7 @@
          Events End -->
 
 
-        <!-- Menu Start -->
+        <!-- Committee Start 
         <div class="container-fluid menu bg-light py-6 my-6" id="commit">
             <div class="container">
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
@@ -471,7 +472,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--<div class="col-lg-6">
+                                <div class="col-lg-6">
                                     <div class="menu-item d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-08.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
@@ -518,7 +519,7 @@
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
                                     </div>
-                                </div>-->
+                                </div>
                             </div>
                         </div>
                         <div id="tab-8" class="tab-pane fade show p-0">
@@ -567,7 +568,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--<div class="col-lg-6">
+                                <div class="col-lg-6">
                                     <div class="menu-item d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-05.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
@@ -614,7 +615,7 @@
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div> 
                             </div>
                         </div>
                         <div id="tab-9" class="tab-pane fade show p-0">
@@ -897,7 +898,7 @@
                 </div>
             </div>
         </div>
-        <!-- Menu End -->
+         Menu End -->
 
 
         <!-- Book Us Start 
@@ -988,7 +989,7 @@
        Book Us End -->
 
         
-        <!-- Team Start -->
+        <!-- Team Start 
         <div class="container-fluid team py-6">
             <div class="container">
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
@@ -1046,7 +1047,7 @@
             <div class="container">
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
                     <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Updates</small>
-                    <h1 class="display-5 mb-5">new timely updates</h1>
+                    <h1 class="display-5 mb-5">timely updates</h1>
                 </div>
                 <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item rounded bg-light">
@@ -1060,9 +1061,9 @@
                     <div class="testimonial-item rounded bg-light">
                         <div class="testimonial-content">
                             <div class="d-flex">
-                                <span style="background-color: red; color: white; font-weight: 300; border-radius: 40px;">new</span>
+                                <span style="background-color: blue; color: white; font-weight: 300; border-radius: 40px;">upcoming</span>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Paper Submission Template Available</p>
+                            <p class="fs-5 m-0 pt-3">Brochure Available</p>
                         </div>
                     </div>
                     <div class="testimonial-item rounded bg-light">
@@ -1087,7 +1088,7 @@
                     <div class="testimonial-item rounded bg-light">
                         <div class="testimonial-content">
                             <div class="d-flex">
-                                <span style="background-color: blue; color: white; font-weight: 300; border-radius: 40px;">5th March, 2024</span>
+                                <span style="background-color: blue; color: white; font-weight: 300; border-radius: 40px;">soon</span>
                             </div>
                             <p class="fs-5 m-0 pt-3">Paper Submission Starts!</p>
                         </div>
@@ -1095,9 +1096,9 @@
                     <div class="testimonial-item rounded bg-light">
                         <div class="testimonial-content">
                             <div class="d-flex">
-                                <span style="background-color: blue; color: white; font-weight: 300; border-radius: 40px;">15th March, 2024</span>
+                                <span style="background-color: blue; color: white; font-weight: 300; border-radius: 40px;">20th March, 2024</span>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Acceptance Notification Posted!</p>
+                            <p class="fs-5 m-0 pt-3">Acceptance Notification Posting!</p>
                         </div>
                     </div>
                     <div class="testimonial-item rounded bg-light">
@@ -1193,10 +1194,10 @@
                             <h1 class="text-primary">NCICCN<span class="text-dark">2024</span></h1>
                             <p class="lh-lg mb-4">Welcome to the official website of the NCICCN! NCICCN is an annual conference dedicated to advancing research, innovation, and collaboration in the fields of cloud computing and computer networks.</p>
                             <div class="footer-icon d-flex">
-                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                                <!--<a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="#"><i class="fab fa-twitter"></i></a> -->
+                                <a href="https://www.instagram.com/nciccn?igsh=MWJ4bTUwOGJoemdoOA==" target="_blank" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                                <a href="mailto: nciccn@sreenidhi.edu.in" target="_blank" class="btn btn-primary btn-sm-square rounded-circle"><i class="fas fa-envelope"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1204,10 +1205,10 @@
                         <div class="footer-item">
                             <h4 class="mb-4">Useful Links</h4>
                             <div class="d-flex flex-column align-items-start">
-                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Submit Paper</a>
-                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Paper Template</a>
-                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Contact Us</a>
-                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Brochure</a>
+                                <!--<a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Submit Paper</a>
+                                <a class="text-body mb-3" href="#"><i class="fa fa-check text-primary me-2"></i>Paper Template</a>-->
+                                <a class="text-body mb-3" href="#contact"><i class="fa fa-check text-primary me-2"></i>Contact Us</a>
+                                <a class="text-body mb-3" href="https://sreenidhi.edu.in/" target="_blank"><i class="fa fa-check text-primary me-2"></i>SNIST</a>
                             </div>
                         </div>
                     </div>
@@ -1216,9 +1217,9 @@
                             <h4 class="mb-4">Contact Us</h4>
                             <div class="d-flex flex-column align-items-start">
                                 <p><i class="fa fa-map-marker-alt text-primary me-2"></i> #1-2-288/23/1 <br> Domalguda, Hyderabad-500 029 <br> Telangana, India</p>
-                                <p><i class="fa fa-phone-alt text-primary me-2"></i> +91 phoneNumber</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> +91 7793960888</p>
                                 <p><a href="mailto: nciccn@sreenidhi.edu.in"><i class="fas fa-envelope text-primary me-2"></i>nciccn@sreenidhi.edu.in</p></a>
-                                <p><i class="fa fa-clock text-primary me-2"></i> contact timings: 10am to 4pm</p>
+                                <p><i class="fa fa-clock text-primary me-2"></i> contact timings: 4pm to 10pm</p>
                             </div>
                         </div>
                     </div>

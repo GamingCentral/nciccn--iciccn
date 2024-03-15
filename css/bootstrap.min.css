@@ -2361,8 +2361,8 @@ textarea.form-control-lg{
     opacity:.65
 }
 .btn-primary{
-    color:#000;
-    background-color:#d4a762;
+    color:white;
+    background-color:rgba(18, 66, 89, 255);
     border-color:#d4a762
 }
 .btn-primary:hover{
@@ -6329,7 +6329,7 @@ textarea.form-control-lg{
     word-break:break-word !important
 }
 .text-primary{
-    color:#d4a762 !important
+    color:#00a9f3 !important
 }
 .text-secondary{
     color:#9a9a9a !important

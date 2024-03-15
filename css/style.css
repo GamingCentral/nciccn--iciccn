@@ -13,7 +13,17 @@
      opacity: 1;
  }
 /*** Spinner End ***/
-
+.logo{
+    width: 6%;
+}
+.navbar{
+        flex-wrap: wrap;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .back-to-top {
     position: fixed;
